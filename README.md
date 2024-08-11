@@ -36,3 +36,35 @@ Difi-File-System is designed to address the limitations of centralized storage s
    Edit the `.env` file with your specific configurations.
 
 5. Start the application:npm start
+
+## Usage
+
+1. Create an account or log in to your existing account.
+2. Upload files through the web interface or CLI.
+3. Manage file permissions and sharing options.
+4. Access your files from any device with internet connectivity.
+5. Track file versions and changes using the blockchain ledger.
+
+For detailed usage instructions, please refer to our [User Guide](docs/user-guide.md).
+
+## Architecture
+
+Difi-File-System consists of several key components:
+
+1. **Frontend**: A user-friendly web interface for interacting with the system.
+2. **Backend API**: Handles user authentication, file management, and system operations.
+3. **IPFS Integration**: Manages distributed file storage across the network.
+4. **Blockchain Layer**: Ethereum-based smart contracts for file tracking and access control.
+5. **Incentive Mechanism**: Rewards nodes for providing storage and bandwidth.
+
+For a more detailed explanation of the system architecture, please see our [Architecture Document](docs/architecture.md).
+
+## Contributing
+
+We welcome contributions from the community! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch for your feature or bug fix
+3. Make your changes and commit them with clear, descriptive messages
+4. Push your changes to your fork
+5. Submit a pull request to the main repository
